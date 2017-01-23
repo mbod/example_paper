@@ -1,0 +1,23 @@
+---
+title: "data analysis for paper"
+author: "Matthew Brook O'Donnell"
+date: "January 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Data
+
+Load in my data
+
+```{r}
+
+df <- read.csv('data/datafile.csv')
+
+head(df)
+
+```
