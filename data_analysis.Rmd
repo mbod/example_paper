@@ -23,3 +23,10 @@ df <- read.csv('data/datafile.csv')
 head(df)
 
 ```
+
+
+```{r}
+
+plot(gear ~ cyl, mtcars)
+
+```

@@ -25,3 +25,11 @@ head(df)
 ## 5 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
 ## 6 18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 ```
+
+
+
+```r
+plot(gear ~ cyl, mtcars)
+```
+
+![](data_analysis_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
