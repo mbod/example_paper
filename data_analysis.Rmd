@@ -2,7 +2,9 @@
 title: "data analysis for paper"
 author: "Matthew Brook O'Donnell"
 date: "January 23, 2017"
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
